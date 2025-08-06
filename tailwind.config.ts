@@ -24,6 +24,11 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				'portfolio-pink': 'hsl(var(--portfolio-pink))',
+				'portfolio-violet': 'hsl(var(--portfolio-violet))',
+				'portfolio-green': 'hsl(var(--portfolio-green))',
+				'portfolio-blue': 'hsl(var(--portfolio-blue))',
+				'portfolio-cyan': 'hsl(var(--portfolio-cyan))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
@@ -62,6 +67,11 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-card': 'var(--gradient-card)',
+				'gradient-text': 'var(--gradient-text)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
