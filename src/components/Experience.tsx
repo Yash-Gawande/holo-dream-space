@@ -2,33 +2,33 @@ import { Briefcase, Calendar } from "lucide-react";
 
 const experiences = [
   {
-    title: "Senior Full Stack Developer",
-    company: "Tech Solutions Inc.",
-    period: "2022 - Present",
-    description: "Led development of scalable web applications using React, Node.js, and cloud technologies. Mentored junior developers and improved deployment processes.",
-    technologies: ["React", "TypeScript", "Node.js", "AWS", "PostgreSQL"]
+    title: "Junior Software Developer",
+    company: "Upperthrust Technologies",
+    period: "Nov 2024 - Present",
+    description: "Working on the web-based data cleaning and analysis platform. Developing features for data cleaning and preprocessing.",
+    technologies: ["Python", "FastAPI", "NumPy", "Pandas", "MongoDB", "Job Scheduling"]
   },
   {
-    title: "Full Stack Developer",
-    company: "Digital Innovations",
-    period: "2020 - 2022",
+    title: "Data Analyst Intern",
+    company: "Mentorness",
+    period: "Jun 2024 - Jul 2024",
     description: "Developed responsive web applications and RESTful APIs. Collaborated with design team to implement pixel-perfect UI components.",
-    technologies: ["Vue.js", "Python", "Django", "Docker", "MySQL"]
+    technologies: ["Python", "MySQL", "Excel", "Power BI"]
   },
   {
-    title: "Frontend Developer",
-    company: "StartupXYZ",
-    period: "2019 - 2020",
-    description: "Built interactive user interfaces and optimized application performance. Implemented modern frontend workflows and testing strategies.",
-    technologies: ["JavaScript", "React", "SCSS", "Jest", "Webpack"]
+    title: "Data Science Intern",
+    company: "Navodita Infotech",
+    period: "Feb 2024 - Mar 2024",
+    description: "Assisted in data analysis and machine learning model development. Worked with large datasets to extract insights and build predictive models.",
+    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Scikit-learn", "TensorFlow"]
   }
 ];
 
 const Experience = () => {
   return (
     <section id="experience" className="py-20 px-4">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 gradient-text">
+      <div className="text-center max-w-4xl mx-auto">
+        <h2 className="text-2xl md:text-4xl font-bold mb-14 inline-block bg-portfolio-violet text-white px-6 py-3 rounded-xl shadow-lg mx-auto">
           Professional Experience
         </h2>
         

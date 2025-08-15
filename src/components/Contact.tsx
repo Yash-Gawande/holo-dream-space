@@ -5,19 +5,20 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "john.developer@email.com",
-    href: "mailto:john.developer@email.com"
+    value: "gawandeyash88@gmail.com",
+    href: "mailto:gawandeyash88@gmail.com"
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567"
+    value: "+91-8975343569",
+    href: "+91-8975343569",
+    // color: "hover:text-portfolio-green text-portfolio-gree
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
+    value: "Pune, Maharashtra, India",
     href: "#"
   }
 ];
@@ -26,28 +27,28 @@ const socialLinks = [
   {
     icon: Github,
     label: "GitHub",
-    href: "https://github.com",
+    href: "https://github.com/yash-gawande",
     color: "hover:text-portfolio-violet"
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "https://linkedin.com",
+    href: "https://linkedin.com/in/yash-gawande",
     color: "hover:text-portfolio-blue"
   },
-  {
-    icon: Twitter,
-    label: "Twitter",
-    href: "https://twitter.com",
-    color: "hover:text-portfolio-cyan"
-  }
+  // {
+  //   icon: Twitter,
+  //   label: "Twitter",
+  //   href: "https://twitter.com",
+  //   color: "hover:text-portfolio-cyan"
+  // }
 ];
 
 const Contact = () => {
   return (
     <section id="contact" className="py-20 px-4">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl font-bold mb-8 gradient-text">
+        <h2 className="text-2xl md:text-4xl font-bold mb-14 inline-block bg-portfolio-violet text-white px-6 py-3 rounded-xl shadow-lg mx-auto">
           Let's Connect
         </h2>
         
@@ -66,7 +67,7 @@ const Contact = () => {
             >
               <contact.icon className="h-8 w-8 text-portfolio-violet mx-auto mb-3 group-hover:scale-110 transition-transform duration-300" />
               <h3 className="font-semibold text-white mb-2">{contact.label}</h3>
-              <p className="text-white/70 group-hover:text-white transition-colors duration-300">
+              <p className="text-black/70 group-hover:text-black transition-colors duration-300">
                 {contact.value}
               </p>
             </a>
@@ -98,15 +99,15 @@ const Contact = () => {
           <h3 className="text-2xl font-bold text-white mb-4">
             Ready to Start Your Project?
           </h3>
-          <p className="text-white/80 mb-6">
+          <p className="text-black/80 mb-6">
             Let's discuss how we can turn your vision into reality.
           </p>
           <Button 
             size="lg"
-            className="bg-white/20 hover:bg-white/30 text-white border border-white/30 backdrop-blur-sm px-8 py-3 text-lg font-medium transition-all duration-300 hover:scale-105"
+            className="bg-white/20 hover:bg-black/30 text-black border border-white/30 backdrop-blur-sm px-8 py-3 text-lg font-medium transition-all duration-300 hover:scale-105"
             asChild
           >
-            <a href="mailto:john.developer@email.com">
+            <a href="mailto:gawandeyash88@gmail.com">
               <Mail className="mr-2 h-5 w-5" />
               Get In Touch
             </a>
