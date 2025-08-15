@@ -23,19 +23,23 @@ const Hero = () => {
         </div>
 
         {/* Name and Title */}
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 gradient-text animate-float" style={{animationDelay: '0.5s'}}>
-          John Developer
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white text-border-black animate-float" style={{animationDelay: '0.5s'}}>
+          Yash Gawande
         </h1>
         
         <h2 className="text-2xl md:text-3xl font-light mb-8 text-white/90 animate-float" style={{animationDelay: '1s'}}>
-          Full Stack Developer & Designer
+          Python Backend Developer | ML Enthusiast | Data Science Learner
         </h2>
 
         {/* Description */}
         <div className="glass-card rounded-2xl p-8 mb-8 max-w-2xl mx-auto animate-float" style={{animationDelay: '1.5s'}}>
           <p className="text-lg md:text-xl text-white/80 leading-relaxed">
-            Passionate about creating beautiful, functional web applications that solve real-world problems. 
+            {/* Passionate about creating beautiful, functional web applications that solve real-world problems. 
             With expertise in modern technologies and a keen eye for design, I bring ideas to life through code.
+            Let's build something amazing together! */}
+            I'm a young, passionate Python Backend Developer with a strong foundation in machine learning and data science.
+            I thrive on solving complex problems and am always eager to learn new technologies. I bring ideas to life through code.<br />
+            Let's build something amazing together!
           </p>
         </div>
 

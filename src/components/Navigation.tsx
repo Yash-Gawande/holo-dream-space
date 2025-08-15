@@ -40,7 +40,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="text-2xl font-bold gradient-text cursor-pointer" onClick={() => scrollToSection('#home')}>
-            JD
+            
           </div>
 
           {/* Desktop Navigation */}
