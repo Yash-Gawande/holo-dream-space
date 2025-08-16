@@ -3,25 +3,25 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "Modern e-commerce solution with real-time inventory management, secure payments, and analytics dashboard.",
-    technologies: ["React", "Node.js", "Stripe", "MongoDB", "Redis"],
+    title: "Talenode",
+    description: "Web-based data cleaning and analysis platform.",
+    technologies: ["Python", "Node.js", "MongoDB", "Job Scheduling"],
     liveUrl: "#",
     githubUrl: "#",
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80"
   },
   {
-    title: "Task Management App",
-    description: "Collaborative project management tool with real-time updates, file sharing, and team communication features.",
-    technologies: ["Vue.js", "Socket.io", "PostgreSQL", "Docker", "AWS"],
+    title: "Airline Passenger Data Analysis",
+    description: "Analyzing airline passenger data to extract insights and improve operational efficiency.",
+    technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     liveUrl: "#",
     githubUrl: "#",
     image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=800&q=80"
   },
   {
-    title: "AI-Powered Analytics",
-    description: "Data visualization platform with machine learning insights and automated reporting capabilities.",
-    technologies: ["Python", "TensorFlow", "D3.js", "FastAPI", "Kafka"],
+    title: "Loan Defaulter Prediction",
+    description: "Predicting loan defaults using machine learning algorithms and data visualization techniques.",
+    technologies: ["Python", "ML", "Data Visualization", "Scikit-learn", "Seaborn"],
     liveUrl: "#",
     githubUrl: "#",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
